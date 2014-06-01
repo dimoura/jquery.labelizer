@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>umpx - placeholder labelizer</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <br>
+  <input type="text" class="myinput" placeholder="name">
+  <input type="text" class="myinput" placeholder="e-mail">
+  <input type="text" class="myinput" placeholder="phone">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="jquery.labelizer.js"></script>
+  <script>
+  $(function(){
+    $('.myinput').labelizer();
+  });
+  </script>
+</body>
+</html>
